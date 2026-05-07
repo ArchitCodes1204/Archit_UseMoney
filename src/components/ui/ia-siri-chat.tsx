@@ -33,8 +33,8 @@ export function VoiceChat({
   const [duration, setDuration] = useState(0);
   const [particles, setParticles] = useState<Particle[]>([]);
   const [waveformData, setWaveformData] = useState<number[]>(Array(32).fill(0));
-  const intervalRef = useRef<NodeJS.Timeout>();
-  const animationRef = useRef<number>();
+  const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
+  const animationRef = useRef<number | null>(null);
 
   // Generate particles for ambient effect
   useEffect(() => {
