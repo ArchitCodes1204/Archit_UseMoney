@@ -66,10 +66,10 @@ export default function Sidebar() {
         <div className="mt-auto p-4">
           <div className="flex items-center gap-3 px-3 py-3 rounded-lg hover:bg-zinc-800/50 cursor-pointer transition-colors">
             <div className="w-8 h-8 rounded-full bg-zinc-800 overflow-hidden flex-shrink-0 flex items-center justify-center">
-              <span className="text-xs font-medium text-white">KR</span>
+              <span className="text-xs font-medium text-white">AM</span>
             </div>
             <div className="flex-1 min-w-0">
-              <p className="text-sm font-medium text-white truncate">Kapish Rohilla</p>
+              <p className="text-sm font-medium text-white truncate">Archit Mamodiya</p>
               <p className="text-xs text-zinc-500 truncate">Pro Member</p>
             </div>
           </div>

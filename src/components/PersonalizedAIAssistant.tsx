@@ -71,7 +71,7 @@ export default function PersonalizedAIAssistant() {
 
     // Check User Status in localStorage
     const hasVisited = localStorage.getItem('usemoney_visited');
-    const userName = 'Kapish Rohilla'; // Hardcoded for this mockup based on the screenshot
+    const userName = 'Archit Mamodiya'; // Hardcoded for this mockup based on the screenshot
 
     if (!hasVisited) {
       // New User

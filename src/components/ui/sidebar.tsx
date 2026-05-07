@@ -335,10 +335,10 @@ export function SessionNavBar() {
             <DropdownMenuTrigger className="w-full" asChild>
               <Button variant="ghost" className="w-full flex items-center justify-start gap-3 h-12 px-2 hover:bg-zinc-800/50 group shrink-0 overflow-hidden">
                 <Avatar className="h-8 w-8 shrink-0 border border-zinc-700">
-                  <AvatarFallback className="bg-zinc-800 text-white text-xs">KR</AvatarFallback>
+                  <AvatarFallback className="bg-zinc-800 text-white text-xs">AM</AvatarFallback>
                 </Avatar>
                 <motion.div variants={variants} className="flex-1 flex items-center justify-between overflow-hidden whitespace-nowrap">
-                  <span className="text-[14px] font-medium text-white truncate text-left w-full">Kapish Rohilla</span>
+                  <span className="text-[14px] font-medium text-white truncate text-left w-full">Archit Mamodiya</span>
                   <MoreHorizontal className="h-4 w-4 text-zinc-500 ml-2" />
                 </motion.div>
               </Button>
